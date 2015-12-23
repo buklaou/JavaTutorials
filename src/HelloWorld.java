@@ -9,7 +9,6 @@ public class HelloWorld {
         System.out.println("Hello, World!");
 
         //VARIABLES
-
         int number = 5 + 5; //the number 10 is stored into the number variable
         int secondNumber = 12; //the number 12 is stored into the secondNumber variable
         int thirdNumber = 6; //the number 6 is stored into the thirdNumber variable
