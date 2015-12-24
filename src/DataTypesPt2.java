@@ -1,7 +1,7 @@
 /**
  * Created by Raffi on 12/23/2015.
  */
-public class DecimalNumbers {
+public class DataTypesPt2 {
 
     public static void main(String[] args) {
 
