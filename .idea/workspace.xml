@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d120a34f-7a68-4766-8563-55041de6dbb9" name="Default" comment="While and Do-While Loops">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Classes/Car.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Classes/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Constructors/Account.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Constructors/Main.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaTutorials/DataTypesPt4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaTutorials/HelloWorld.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="d120a34f-7a68-4766-8563-55041de6dbb9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ControlFlowStatements.java" afterPath="$PROJECT_DIR$/src/BasicTutorials/BT007ControlFlowStatements.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ControlFlowStatementsPt2.java" afterPath="$PROJECT_DIR$/src/BasicTutorials/BT007ControlFlowStatementsPt2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ControlFlowStatementsPt3.java" afterPath="$PROJECT_DIR$/src/BasicTutorials/BT007ControlFlowStatementsPt3.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DataTypes.java" afterPath="$PROJECT_DIR$/src/BasicTutorials/BT002DataTypes.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DataTypesPt2.java" afterPath="$PROJECT_DIR$/src/BasicTutorials/BT002DataTypesPt2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DataTypesPt3.java" afterPath="$PROJECT_DIR$/src/BasicTutorials/BT002DataTypesPt3.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DataTypesPt4.java" afterPath="$PROJECT_DIR$/src/BasicTutorials/BT002DataTypesPt4.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/HelloWorld.java" afterPath="$PROJECT_DIR$/src/BasicTutorials/BT001HelloWorld.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/IfAndCodeBlocks.java" afterPath="$PROJECT_DIR$/src/BasicTutorials/BT005IfAndCodeBlocks.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MethodOverloading.java" afterPath="$PROJECT_DIR$/src/BasicTutorials/BT006MethodOverloading.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Methods.java" afterPath="$PROJECT_DIR$/src/BasicTutorials/BT006Method.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Operators.java" afterPath="$PROJECT_DIR$/src/BasicTutorials/BT003Operators.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Statements.java" afterPath="$PROJECT_DIR$/src/BasicTutorials/BT004Statements.java" />
     </list>
     <ignored path="JavaTutorials.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -826,7 +806,7 @@
       <workItem from="1450946381493" duration="4000" />
       <workItem from="1451173125616" duration="2559000" />
       <workItem from="1451175740209" duration="9471000" />
-      <workItem from="1451185333400" duration="14357000" />
+      <workItem from="1451185333400" duration="14393000" />
     </task>
     <task id="LOCAL-00001" summary="Added Variables&#10;">
       <created>1450870887752</created>
@@ -894,11 +874,17 @@
       <option name="project" value="LOCAL" />
       <updated>1451193723804</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="File Restructures, Classes, Constructors">
+      <created>1451202326642</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1451202326642</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33919000" />
+    <option name="totallyTimeSpent" value="33955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -952,7 +938,8 @@
     <MESSAGE value="Switch Statement" />
     <MESSAGE value="For Loops" />
     <MESSAGE value="While and Do-While Loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="While and Do-While Loops" />
+    <MESSAGE value="File Restructures, Classes, Constructors" />
+    <option name="LAST_COMMIT_MESSAGE" value="File Restructures, Classes, Constructors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
