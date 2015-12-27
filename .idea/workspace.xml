@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d120a34f-7a68-4766-8563-55041de6dbb9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Constructors/VIPcustomer.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaTutorials/ClassesPt2/Account.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaTutorials/ClassesPt2/Main.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Constructors/Account.java" afterPath="$PROJECT_DIR$/src/Constructors/Account.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Constructors/Main.java" afterPath="$PROJECT_DIR$/src/Constructors/Main.java" />
     </list>
     <ignored path="JavaTutorials.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -793,7 +788,7 @@
       <workItem from="1450946381493" duration="4000" />
       <workItem from="1451173125616" duration="2559000" />
       <workItem from="1451175740209" duration="9471000" />
-      <workItem from="1451185333400" duration="16715000" />
+      <workItem from="1451185333400" duration="16737000" />
     </task>
     <task id="LOCAL-00001" summary="Added Variables&#10;">
       <created>1450870887752</created>
@@ -873,11 +868,17 @@
       <option name="project" value="LOCAL" />
       <updated>1451202704013</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Constructors Pt 2">
+      <created>1451204675757</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1451204675757</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36277000" />
+    <option name="totallyTimeSpent" value="36299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -933,7 +934,8 @@
     <MESSAGE value="While and Do-While Loops" />
     <MESSAGE value="File Restructures, Classes, Constructors" />
     <MESSAGE value="Spelling Corrections in Constructors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spelling Corrections in Constructors" />
+    <MESSAGE value="Constructors Pt 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Constructors Pt 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
