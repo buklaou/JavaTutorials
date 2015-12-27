@@ -1,7 +1,9 @@
+package BasicTutorials;
+
 /**
  * Created by Raffi on 12/23/2015.
  */
-public class HelloWorld {
+public class BT001HelloWorld {
 
     public static void main(String[] args) {
 

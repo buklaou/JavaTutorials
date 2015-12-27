@@ -1,7 +1,9 @@
+package BasicTutorials;
+
 /**
  * Created by Raffi on 12/26/2015.
  */
-public class MethodOverloading {
+public class BT006MethodOverloading {
 
 
     //You cannot have the same method with same parameters. Although if you change the
@@ -32,7 +34,7 @@ public class MethodOverloading {
     }
 
 
-    //Challenge
+    //Constructors
 
     public static double calcFeetAndInchesToCentimeters(double feet, double inches) {
         if (feet >= 0 && feet <= 12 && inches >= 0) {

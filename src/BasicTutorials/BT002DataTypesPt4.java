@@ -1,7 +1,9 @@
+package BasicTutorials;
+
 /**
  * Created by Raffi on 12/24/2015.
  */
-public class DataTypesPt4 {
+public class BT002DataTypesPt4 {
 
     public static void main(String[] args) {
 

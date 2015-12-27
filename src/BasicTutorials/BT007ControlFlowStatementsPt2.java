@@ -1,7 +1,9 @@
+package BasicTutorials;
+
 /**
  * Created by Raffi on 12/26/2015.
  */
-public class ControlFlowStatementsPt2 {
+public class BT007ControlFlowStatementsPt2 {
 
     public static void main(String[] args) {
 

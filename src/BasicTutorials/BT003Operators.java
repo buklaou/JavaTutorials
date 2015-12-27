@@ -1,7 +1,9 @@
+package BasicTutorials;
+
 /**
  * Created by Raffi on 12/26/2015.
  */
-public class Operators {
+public class BT003Operators {
 
     public static void main(String[] args) {
 

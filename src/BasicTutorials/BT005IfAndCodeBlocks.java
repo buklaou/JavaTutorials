@@ -1,7 +1,9 @@
+package BasicTutorials;
+
 /**
  * Created by Raffi on 12/26/2015.
  */
-public class IfAndCodeBlocks {
+public class BT005IfAndCodeBlocks {
     public static void main(String[] args) {
 
         boolean gameOver = true;

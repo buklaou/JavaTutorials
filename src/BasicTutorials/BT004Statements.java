@@ -1,7 +1,9 @@
+package BasicTutorials;
+
 /**
  * Created by Raffi on 12/26/2015.
  */
-public class Statements {
+public class BT004Statements {
 
     public static void main(String[] args) {
 

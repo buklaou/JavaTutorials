@@ -1,7 +1,9 @@
+package BasicTutorials;
+
 /**
  * Created by Raffi on 12/26/2015.
  */
-public class ControlFlowStatements {
+public class BT007ControlFlowStatements {
 
     public static void main(String[] args) {
 
@@ -34,7 +36,7 @@ public class ControlFlowStatements {
                 break;
         }
 
-        //Challenge
+        //Constructors
         //Create a char switch statement
         char charValue = 'D';
 

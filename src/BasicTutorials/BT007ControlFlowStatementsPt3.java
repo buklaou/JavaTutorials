@@ -1,9 +1,11 @@
+package BasicTutorials;
+
 /**
  * Created by Raffi on 12/26/2015.
  */
-public class ControlFlowStatementsPt3 {
+public class BT007ControlFlowStatementsPt3 {
 
-    //While and Do-While Statements
+    //While and Do-While BasicTutorials.BT004Statements
     public static void main(String[] args) {
 
         /*int count = 0;

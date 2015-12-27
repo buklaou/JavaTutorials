@@ -1,7 +1,9 @@
+package BasicTutorials;
+
 /**
  * Created by Raffi on 12/23/2015.
  */
-public class DataTypesPt2 {
+public class BT002DataTypesPt2 {
 
     public static void main(String[] args) {
 
@@ -17,7 +19,7 @@ public class DataTypesPt2 {
         System.out.println(myFloatValue);
         System.out.println(myDoubleValue);
 
-        //Challenge
+
         //Convert given number of pounds to kilograms
         //Note: 1 pound = 0.45359237 kilograms
         double p = 15d;
