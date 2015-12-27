@@ -20,6 +20,13 @@ public class Account {
         System.out.println("Empty constructor called");
     }
 
+    public Account(String customerName, String email, String phoneNumber) {
+
+        this("9999", 100.55, customerName, email, phoneNumber);
+        System.out.println("Empty constructor called");
+    }
+
+    //Main Constructor
     public Account(String number, double balance, String customerName, String email, String phoneNumber) {
         System.out.println("Account constructor with parameters called");
         this.number = number;
@@ -38,7 +45,7 @@ public class Account {
 
     public void withdrawal(double withdrawalAmount) {
 
-        if(balance - withdrawalAmount <= 0) {
+        if(balance - withdrawalAmount < 0) {
             System.out.println("Only " + this.balance + " available. Withdrawal not processed");
         } else {
             balance -= withdrawalAmount;
