@@ -29,14 +29,14 @@ public class Account {
         this.phoneNumber = phoneNumber;
     }
 
-    public void depositeFunds(double depositeAmount) {
+    public void depositFunds(double depositAmount) {
 
-        this.balance += depositeAmount;
-        System.out.println("Deposit of " + depositeAmount + " made. New Balance is " + this.balance);
+        this.balance += depositAmount;
+        System.out.println("Deposit of " + depositAmount + " made. New Balance is " + this.balance);
 
     }
 
-    public void withdrawl(double withdrawalAmount) {
+    public void withdrawal(double withdrawalAmount) {
 
         if(balance - withdrawalAmount <= 0) {
             System.out.println("Only " + this.balance + " available. Withdrawal not processed");

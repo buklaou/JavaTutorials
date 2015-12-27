@@ -11,13 +11,13 @@ public class Main {
         System.out.println(raffisAccount.getAccountNumber());
         System.out.println(raffisAccount.getBalance());
 
-        raffisAccount.withdrawl(100.0);
+        raffisAccount.withdrawal(100.0);
 
-        raffisAccount.depositeFunds(50.0);
-        raffisAccount.withdrawl(100.0);
+        raffisAccount.depositFunds(50.0);
+        raffisAccount.withdrawal(100.0);
 
-        raffisAccount.depositeFunds(51.0);
-        raffisAccount.withdrawl(100.0);
+        raffisAccount.depositFunds(51.0);
+        raffisAccount.withdrawal(100.0);
 
     }
 }
