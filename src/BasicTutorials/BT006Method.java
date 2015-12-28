@@ -47,6 +47,7 @@ public class BT006Method {
         }
     }
 
+    //This method prints out its player name and high score position parameters
     public static void displayHighScorePosition(String playerName, int highScorePosition) {
 
         System.out.println(playerName + " managed to get into position " + highScorePosition
@@ -54,6 +55,7 @@ public class BT006Method {
 
     }
 
+    //This method calculates the high score position based on a playerScore parameter it is passed.
     public static int calculateHighScorePosition(int playerScore) {
 
         if(playerScore >= 1000) {

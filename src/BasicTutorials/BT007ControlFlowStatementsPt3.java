@@ -5,7 +5,7 @@ package BasicTutorials;
  */
 public class BT007ControlFlowStatementsPt3 {
 
-    //While and Do-While BasicTutorials.BT004Statements
+    //While and Do-While
     public static void main(String[] args) {
 
         /*int count = 0;

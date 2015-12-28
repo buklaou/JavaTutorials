@@ -16,10 +16,13 @@ public class BT007ControlFlowStatements {
         } else
             System.out.println("Value wasn't 1 or 2"); */
 
-        //More efficient than above code
+
+
+        //The switch statement is more efficient than above code
         //int switch statement
         int switchValue = 3;
 
+        //Create possible cases that the value stored in switchValue can match to. (Matches with case 3)
         switch(switchValue) {
             case 1:
                 System.out.println("Value was 1");
@@ -36,7 +39,7 @@ public class BT007ControlFlowStatements {
                 break;
         }
 
-        //Constructors
+
         //Create a char switch statement
         char charValue = 'D';
 

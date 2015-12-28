@@ -18,6 +18,7 @@ public class BT006MethodOverloading {
         calcFeetAndInchesToCentimeters(101.0);
     }
 
+    //Notice how these three methods are the same, but the parameters they receive are different.
     public static int calculateScore(String playerName, int score) {
         System.out.println("Player " + playerName + ", score was " + score);
         return score * 1000;
@@ -33,8 +34,6 @@ public class BT006MethodOverloading {
         return -1;
     }
 
-
-    //Constructors
 
     public static double calcFeetAndInchesToCentimeters(double feet, double inches) {
         if (feet >= 0 && feet <= 12 && inches >= 0) {
