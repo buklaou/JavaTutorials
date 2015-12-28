@@ -853,7 +853,7 @@
       <workItem from="1451175740209" duration="9471000" />
       <workItem from="1451185333400" duration="17138000" />
       <workItem from="1451208017204" duration="298000" />
-      <workItem from="1451269601367" duration="11346000" />
+      <workItem from="1451269601367" duration="11373000" />
     </task>
     <task id="LOCAL-00001" summary="Added Variables&#10;">
       <created>1450870887752</created>
@@ -939,11 +939,17 @@
       <option name="project" value="LOCAL" />
       <updated>1451204675757</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Inheritance">
+      <created>1451283169248</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1451283169248</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48344000" />
+    <option name="totallyTimeSpent" value="48371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1000,7 +1006,8 @@
     <MESSAGE value="File Restructures, Classes, Constructors" />
     <MESSAGE value="Spelling Corrections in Constructors" />
     <MESSAGE value="Constructors Pt 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Constructors Pt 2" />
+    <MESSAGE value="Inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inheritance" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
