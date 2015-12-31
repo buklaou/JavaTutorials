@@ -10,6 +10,8 @@ public class EnhancedGamer {
     private String weapon;
 
     //Encapsulation provides validation to make sure that unwanted changes aren't made.
+    //initializing the health variable stores the passed value in health instead of hitpoints and this means
+    //that no one else will know that the actual variable that health passes onto is hitpoints.
     public EnhancedGamer(String name, int health, String weapon) {
         this.name = name;
         if(health > 0 && health <= 100) {
