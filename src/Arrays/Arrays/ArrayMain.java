@@ -1,4 +1,4 @@
-package Arrays.ArraysPt1;
+package Arrays.Arrays;
 
 import java.util.Scanner;
 

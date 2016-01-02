@@ -1,5 +1,6 @@
-package Arrays.ArraysPt2;
+package Arrays.Arrays;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -34,12 +35,15 @@ public class ArraySort {
 
     public static int[] sortIntegers(int[] array) {
 
-        int[] sortedArray = new int[array.length];
+       /* int[] sortedArray = new int[array.length];
 
         //copies contents of array into sortedArray
         for(int i = 0; i < array.length; i++) {
             sortedArray[i] = array[i];
-        }
+        }*/
+
+        //This method of copying an array is build into java
+        int[] sortedArray = Arrays.copyOf(array, array.length);
 
         boolean flag = true;
         int temp;
