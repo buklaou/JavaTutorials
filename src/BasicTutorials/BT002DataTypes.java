@@ -39,7 +39,7 @@ public class BT002DataTypes {
 
         /* variables int and long do not require casts */
 
-        //Constructors
+        //OOP.Constructors
         //create byte, short, int variables with valid numbers stored. Then make a long variable
         //equal to 50000 + 10 times the sum of the other data types.
         byte b = 100;
