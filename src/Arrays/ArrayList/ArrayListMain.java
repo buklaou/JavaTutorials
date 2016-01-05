@@ -71,25 +71,23 @@ public class ArrayListMain {
     }
 
     public static void modifyItem() {
-        System.out.println("Enter item number: ");
-        int itemNum = scanner.nextInt();
-        scanner.nextLine();
+        System.out.println("Current item name: ");
+        String itemNum = scanner.nextLine();
         System.out.println("Enter new item: ");
         String newItem = scanner.nextLine();
-        groceryList.modifyGroceryItem(itemNum - 1, newItem);
+        groceryList.modifyGroceryItem(itemNum, newItem);
     }
 
     public static void removeItem() {
         System.out.println("Enter item number: ");
-        int itemNum = scanner.nextInt();
-        scanner.nextLine();
-        groceryList.removeGroceryItem(itemNum - 1);
+        String itemNum = scanner.nextLine();
+        groceryList.removeGroceryItem(itemNum);
     }
 
     public static void searchForItem() {
         System.out.println("Item to search for: ");
         String searchItem = scanner.nextLine();
-        if(groceryList.findItem(searchItem) != null) {
+        if(groceryList.onFile(searchItem)) {
             System.out.println("Found " + searchItem);
         } else {
             System.out.println(searchItem + ", not found on file.");
