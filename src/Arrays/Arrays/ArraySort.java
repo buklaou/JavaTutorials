@@ -20,14 +20,14 @@ public class ArraySort {
         int[] values = new int[number];
         System.out.println("Enter " + number + " integer values.\r");
 
-        for(int i = 0; i<values.length; i++) {
+        for(int i = 0; i < values.length; i++) {
             values[i] = scanner.nextInt();
         }
 
         return values;
     }
 
-    public static void printArray(int [] array) {
+    public static void printArray(int[] array) {
         for(int i = 0; i < array.length; i++) {
             System.out.println("Element " + i + " contents " + array[i]);
         }

@@ -12,7 +12,7 @@ public class ArrayMain {
 
        /* Placing brackets after int translates to the creation of an array.
         All arrays start at position number 0. There are 10 elements in the myVariable array *//*
-        int[] myIntArray = new int[10]; // {1,2,3,4,5,6,7,8,9,10};
+        int[] myIntArray = new int[10]; //this is another way of initializing an array {1,2,3,4,5,6,7,8,9,10};
 
 
         for(int i = 0; i < 10; i++) {

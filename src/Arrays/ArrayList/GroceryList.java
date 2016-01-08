@@ -14,9 +14,14 @@ public class GroceryList {
         groceryList.add(item);
     }
 
+    public ArrayList<String> getGroceryList() {
+        return groceryList;
+    }
+
     public void printGroceryList() {
 
         //.size returns the amount of items stored in the Array list
+        //.get returns the values of items stored in the Array list
         System.out.println("You have " + groceryList.size() + " items in your grocery list");
         for(int i = 0; i < groceryList.size(); i++) {
             System.out.println((i + 1 ) + ". " + groceryList.get(i));
@@ -49,6 +54,7 @@ public class GroceryList {
 
       //String theItem = groceryList.get(position);
         groceryList.remove(position);
+        System.out.println("Item removed.");
 
 
     }
