@@ -61,8 +61,9 @@ public class BT007ControlFlowStatements {
                 break;
         }
 
-        //String switch statement
-        //.toLowerCase converts entire string to lowercase so uppercase letters do not interfere with result
+        /*String switch statement
+         * .toLowerCase converts entire string to lowercase so uppercase letters
+         * do not interfere with result.*/
         String stringValue = "JANuary";
         switch(stringValue.toLowerCase()) {
             case "january":

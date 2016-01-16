@@ -11,7 +11,7 @@ public class BT005IfAndCodeBlocks {
         int levelCompleted = 5;
         int bonus = 100;
 
-        //A code block organizes code in this If test with brackets so that both prints are executed
+        //A code block organizes code in this If test with brackets so that both prints are executed.
 
         if(score == 5000) {
             System.out.println("You score was 5000");
@@ -19,9 +19,9 @@ public class BT005IfAndCodeBlocks {
         }
 
         /*if else statement
-          if the first one is true it executes the print in the first code block
-          if the second else if is true it executes the print in the second code block
-          if else is true it executes the print in the third code block */
+          if the first one is true it executes the print in the first code block.
+          if the second else if is true it executes the print in the second code block.
+          if else is true it executes the print in the third code block.*/
         if(score <= 5000 && score > 1000) {
             System.out.println("Your score was less than 500 but greater than 1000");
         } else if (score < 1000) {
@@ -34,7 +34,7 @@ public class BT005IfAndCodeBlocks {
           You can create variables inside a code block, although you cannot access variables
           created in a codeblock from outside the codeblock */
 
-        //Concept of variables in a codeblock is called Scope which deals with accessibility of variables
+        //Concept of variables in a codeblock is called Scope which deals with accessibility of variables.
 
         if(gameOver) {
             int finalScore = score + (levelCompleted * bonus);

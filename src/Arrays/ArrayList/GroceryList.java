@@ -6,12 +6,14 @@ import java.util.ArrayList;
  * Created by Raffi on 1/2/2016.
  */
 public class GroceryList {
+
+    //Array list named groceryList.
     private ArrayList<String> groceryList = new ArrayList<>();
 
     public void addGroceryItem(String item) {
 
-        //.add adds the item that was passed into the method into the Array list
-        groceryList.add(item);
+        //.add adds the item that was passed into the method into the Array list.
+        groceryList.add(item.toLowerCase());
     }
 
     public ArrayList<String> getGroceryList() {
@@ -20,8 +22,8 @@ public class GroceryList {
 
     public void printGroceryList() {
 
-        //.size returns the amount of items stored in the Array list
-        //.get returns the values of items stored in the Array list
+        //.size returns the amount of items stored in the Array list.
+        //.get returns the values of items stored in the Array list.
         System.out.println("You have " + groceryList.size() + " items in your grocery list");
         for(int i = 0; i < groceryList.size(); i++) {
             System.out.println((i + 1 ) + ". " + groceryList.get(i));
@@ -37,7 +39,7 @@ public class GroceryList {
 
     private void modifyGroceryItem(int position, String newItem) {
 
-        //.set modifies a certain position in the array list with a new string
+        //.set modifies a certain position in the array list with a new string.
         groceryList.set(position, newItem);
         System.out.println("Grocery item " + (position + 1) + " has been modified.");
     }

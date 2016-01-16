@@ -11,11 +11,11 @@ public class Account {
    private String email;
    private String phoneNumber;
 
-    //This is a constructor that has the same name of the class
-    //stores default values by calling the second constructor
+    /*This is a constructor that has the same name of the class
+    * and stores default values by calling the second constructor. */
     public Account() {
-        //this is a special this statement which calls the second constructor
-        //must be the first line after the constructor is created
+        /*This is a special statement which calls the main constructor and
+        * must be the first line of this constructor.*/
         this("5678", 2.50, "Default name", "Default address", "Default phone");
         System.out.println("Empty constructor called");
     }

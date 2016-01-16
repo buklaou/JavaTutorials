@@ -4,7 +4,7 @@ package OOP.Inheritance;
  * Created by Raffi on 12/27/2015.
  */
 
-//If you want to inherit another class you use extends
+//To inherit another class you need to use the extends keyword.
 public class Dog extends Animal {
 
     private int eyes;
@@ -14,10 +14,11 @@ public class Dog extends Animal {
     private String coat;
 
 
-    //You need to make a constructor for the Dog class that calls the constructor in Animal
-    //super means calls a constructor from the class you're extending from
-    //All dogs have a brain and a body so you don't need to define those in dog, replace by using 1's
-    //then initialize all the fields in Dog under the super( ) line
+    /*You must create a constructor for the Dog class. This calls the constructor in the Animal class.
+    * The super keyword means that it calls the constructor from the class you are extending from.
+    * All dogs have a brain and body so you can replace them with the number 1 because you don't need to
+    * define them here.
+    * You should initialize all the new fields created under the Dog class after the super() line.*/
     public Dog(int size, int weight, String name, int eyes, int legs, int tail, int teeth, String coat) {
         super(1, 1, size, weight, name);
         this.eyes = eyes;
@@ -36,7 +37,7 @@ public class Dog extends Animal {
     public void eat() {
         System.out.println("Dog.eat() called.");
         chew();
-        super.eat(); //call the super class equivalent of eat()
+        super.eat(); //This calls the super class equivalent of eat().
     }
 
     public void walk() {

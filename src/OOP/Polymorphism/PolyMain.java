@@ -6,7 +6,8 @@ package OOP.Polymorphism;
 
 //OOP.Polymorphism assigns different functionality to the different types of objects we create.
 
-//This is the main movie class. Includes just a string name field, standard constructor, plot method and getter for name
+/*This is the main movie class.
+* Includes just a string name field, standard constructor, plot method and getter for name.*/
 class Movie {
     private String name;
 
@@ -87,10 +88,10 @@ public class PolyMain {
 
     public static void main(String[] args) {
 
-        //This for loop creates 10 results of its code block
+        //This for loop creates 10 results of its code block.
         for(int i = 1; i <= 10; i++) {
 
-            //the return from randomMove() is stored in movie
+            //the return from randomMove() is stored in movie.
             Movie movie = randomMovie();
             System.out.println("Movie #" + i + " : " + movie.getName() + "\n" +
             "Plot: " + movie.plot() + "\n");
@@ -99,10 +100,10 @@ public class PolyMain {
     }
 
     /*randomMove() method stores a random number in the int variable randomNumber and uses a switch case
-      using that random number to return the numbers corresponding movie class*/
+      using that random number to return the numbers corresponding movie class.*/
     public static Movie randomMovie() {
 
-        //cast int because math.random returns double and we need int
+        //Cast int because math.random returns double and we need int.
         int randomNumber = (int) (Math.random() * 5) + 1;
         System.out.println("Random number generated is " + randomNumber);
 

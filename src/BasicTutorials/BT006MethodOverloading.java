@@ -6,8 +6,8 @@ package BasicTutorials;
 public class BT006MethodOverloading {
 
 
-    //You cannot have the same method with same parameters. Although if you change the
-    //parameters it receives then there will be no error.
+    /*You cannot have the same method with same parameters. Although if you
+    * change the parameters it recieves there will be no error.*/
     public static void main(String[] args) {
         calculateScore("Raffi", 500);
         calculateScore(750);
@@ -18,7 +18,7 @@ public class BT006MethodOverloading {
         calcFeetAndInchesToCentimeters(101.0);
     }
 
-    //Notice how these three methods are the same, but the parameters they receive are different.
+    /*Notice how these three methods are the same, but the parameters they receive are different.*/
     public static int calculateScore(String playerName, int score) {
         System.out.println("Player " + playerName + ", score was " + score);
         return score * 1000;

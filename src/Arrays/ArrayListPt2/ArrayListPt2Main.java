@@ -11,6 +11,7 @@ public class ArrayListPt2Main {
     private static MobilePhone mobilePhone = new MobilePhone("000 000 0000");
 
     public static void main(String[] args) {
+
         boolean quit = false;
         startPhone();
         printActions();
@@ -54,6 +55,8 @@ public class ArrayListPt2Main {
         System.out.println("Enter phone number: ");
         String phone = scanner.nextLine();
 
+        /*can reference the Contacts class because the createContact method in it is static.
+        * It is referred to as a convenience/factory method.*/
         Contacts newContact = Contacts.createContact(name, phone);
         if(mobilePhone.addNewContact(newContact)) {
             System.out.println("New contact added: " + name + ", " + phone);

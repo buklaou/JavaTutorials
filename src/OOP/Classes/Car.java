@@ -11,12 +11,15 @@ public class Car {
     private String color;
 
 
-    //setModel updates the String model variable with whatever gets passed in the setModel parameter
+    //setModel updates the String model variable with whatever gets passed in the setModel parameter.
     public void setModel(String model) {
 
-        String validModel = model.toLowerCase(); //storing a lowercase version of model string in validModel
-        //so that you can validate it in this statement
-        //.equals compares the string that is being passed into this method to the one that is in the if statement
+        /*Storing a lowercase version of model string in validModel
+        * in order to be able to validate it in the if-else portion.*/
+        String validModel = model.toLowerCase();
+
+        /*.equals compares the string that is being passed into this method to
+        * the one that is set in the if statement.*/
         if(validModel.equals("911") || validModel.equals("F12")) {
             this.model = model;
         } else {
@@ -24,7 +27,7 @@ public class Car {
         }
     }
 
-    //getModel returns the value that is stored in the model field after it is changed by this.model
+    //getModel returns the value that is stored in the model field after it is changed by this.model.
     public String getModel() {
         return this.model;
     }

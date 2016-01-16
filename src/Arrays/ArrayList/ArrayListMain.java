@@ -45,6 +45,7 @@ public class ArrayListMain {
                     break;
                 case 6:
                     processArrayList();
+                    break;
                 case 7:
                     quit = false;
                     break;
@@ -91,7 +92,7 @@ public class ArrayListMain {
     public static void searchForItem() {
         System.out.println("Item to search for: ");
         String searchItem = scanner.nextLine();
-        if (groceryList.onFile(searchItem)) {
+        if (groceryList.onFile(searchItem.toLowerCase())) {
             System.out.println("Found " + searchItem);
         } else {
             System.out.println(searchItem + ", not found on file.");

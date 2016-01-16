@@ -5,6 +5,7 @@ package OOP.OOPProject;
  */
 public class Menu {
 
+    /*Using Composition to define new fields in Menu class.*/
     private Hamburger hamburger;
     private HealthyHamburger healthyHamburger;
     private DeluxeHamburger deluxeHamburger;

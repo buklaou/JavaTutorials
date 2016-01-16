@@ -9,7 +9,8 @@ public class Monitor {
     private String manufacturer;
     private int size;
 
-    /* This is an example of composition. The resolution class is part of monitor. Resolution is component of monitor.*/
+    /*This is an example of composition. The resolution class is part of Monitor.
+    * Resolution is now a component of monitor.*/
     private Resolution nativeResolution;
 
 

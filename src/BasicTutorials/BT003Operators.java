@@ -44,9 +44,9 @@ public class BT003Operators {
         result /= 10;
         System.out.println("Result is now " + result);
 
-        //Basic if operators are
-        // ==      !=           >=                         <=                     >             <
-        //equals, not equal to, greater than or equal to, less than or equal to, greater than, less than
+        /*Basic if operators are:
+        *  ==      !=           >=                         <=                     >             <
+        * equals, not equal to, greater than or equal to, less than or equal to, greater than, less than */
 
         boolean isAlien = false;
         if(isAlien == false)
@@ -58,8 +58,8 @@ public class BT003Operators {
 
 
         int secondTopScore = 60;
-        //there are two conditions to check separated by && or ||
-        //&& requires both to be true, || requires only one to be true
+        /*There are two conditions to check separated by && or ||
+        * && requires both to be true, || requires only one to be true.*/
         if(topScore > secondTopScore && topScore < 100)
             System.out.println("Greater than second top score and less than 100");
 
@@ -68,8 +68,8 @@ public class BT003Operators {
 
         boolean isCar = false;
         boolean wasCar = (isCar) ? true : false;
-        //if isCar is true, return true otherwise return false
-        //this sets wasCar to false
+        /*If isCar is true, return true otherwise return false.
+        * This sets wasCar to false.*/
         System.out.println(wasCar);
 
 

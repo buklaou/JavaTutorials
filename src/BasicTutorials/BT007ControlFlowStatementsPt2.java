@@ -28,8 +28,8 @@ public class BT007ControlFlowStatementsPt2 {
 
         }*/
 
-        //Uses method isPrime to find prime number in the range of 10 and 50 but exits when
-        //count reaches 3
+        /*Uses method isPrime to find prime number in the range of 10 and 50 but exits when
+        * count reaches 3.*/
         int count = 0;
         for(int i = 10; i < 50; i++) {
             if(isPrime(i)) {

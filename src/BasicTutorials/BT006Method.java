@@ -35,9 +35,9 @@ public class BT006Method {
 
     }
 
-    //This method calculates a finalScore by receiving these parameters
-    //void means do not return anything, but if you want it to return something you need to change it to the
-    //data type that it will be returned as
+    /*This method calculates a finalScore by receiving these parameters.
+    * void means do not return anything, but if you want it to return something you need to change it to the
+    * data type that it will be returned as.*/
     public static void calculateScore(boolean gameisOver,int yourScore, int levelComplete, int yourBonus) {
 
         if(gameisOver) {

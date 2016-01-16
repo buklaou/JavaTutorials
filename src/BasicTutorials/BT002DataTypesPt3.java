@@ -13,12 +13,12 @@ public class BT002DataTypesPt3 {
        char myChar = '\u00A5'; //need to put slash and then u before unicode character 00A9
        System.out.println(myChar);
 
-
-       boolean myBoolean = true;
+       /*boolean data types have values of true or false*/
+       boolean myBoolean = false;
        boolean isMale = true;
 
-       /* OOP.Constructors
-       Find code for the registered symbol on the same line as the copyright symbol and then
+
+      /* Find code for the registered symbol on the same line as the copyright symbol and then
        create a variable of type char and assign it the unicode value for that symbol and print.
         */
        char registeredSymbol = '\u00AE';
