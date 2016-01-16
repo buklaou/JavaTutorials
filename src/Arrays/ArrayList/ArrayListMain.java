@@ -8,6 +8,14 @@ import java.util.Scanner;
  */
 public class ArrayListMain {
 
+    /*Array list elements include:
+    * .add: adds the item that was passed into the method into the Array list.
+    * .get: returns the values of items stored in the Array list.
+    * .set: modifies a certain position in the array list with a new value.
+    * .size: returns the size of the array list.
+    * .remove: removes the item specified by a certain value.
+    * .indexOf: returns a number of the position in the array list where searchItem is.*/
+
     private static Scanner scanner = new Scanner(System.in);
     private static GroceryList groceryList = new GroceryList();
 

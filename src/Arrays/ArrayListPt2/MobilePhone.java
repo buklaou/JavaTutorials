@@ -10,8 +10,6 @@ public class MobilePhone {
 
     private String myNumber;
 
-
-
     /*The creation of the array list myContacts can be thought of as array list version of composition.*/
     private ArrayList<Contacts> myContacts;
 
@@ -30,6 +28,7 @@ public class MobilePhone {
             return false;
         }
 
+        /*If it is not in the array list, it is added and returns true.*/
         myContacts.add(contact);
         return true;
     }

@@ -11,7 +11,8 @@ public class BT002DataTypesPt4 {
         * byte, short, int, long
         * float,double char, boolean */
 
-        /*The string data type is one that holds text.*/
+        /*String is a class in java and reference data type.
+        * String is a array of character so it is not a primitive data type.*/
         String myString = "This is a string";
         System.out.println("myString is equal to " + myString);
         myString = myString + ", and this is more.";

@@ -23,7 +23,7 @@ public class Contacts {
         return phoneNumber;
     }
 
-    //Calls the constructor to create a new contact record and returns it
+    //Calls the constructor to create a new contact record and returns it.
     public static Contacts createContact(String name, String phoneNumber) {
         return new Contacts(name, phoneNumber);
     }
