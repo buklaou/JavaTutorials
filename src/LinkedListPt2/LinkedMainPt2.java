@@ -1,7 +1,6 @@
 package LinkedListPt2;
 
 import java.util.*;
-import java.util.jar.Pack200;
 
 /**
  * Created by Raffi on 1/18/2016.
@@ -12,37 +11,36 @@ public class LinkedMainPt2 {
 
     public static void main(String[] args) {
 
-        Album album = new Album("Bangarang", "Skrillex");
-        album.addSong("Kyoto", 3.21);
-        album.addSong("Right In", 3.01);
-        album.addSong("Summit", 6.14);
-        album.addSong("Bangarang", 3.35);
+        Album album = new Album("Flume (Deluxe Edition)", "Flume");
+        album.addTrack("Sleepless", 5.18);
+        album.addTrack("You & Me", 4.43);
+        album.addTrack("Insane", 2.07);
+        album.addTrack("Ezra", 3.38);
         albums.add(album);
 
-        album = new Album("Recess", "Skrillex");
-        album.addSong("Ease My Mind", 5.03);
-        album.addSong("Try It Out", 3.49);
-        album.addSong("Recess", 3.58);
+        album = new Album("In Colour", "Jamie XX");
+        album.addTrack("Gosh", 4.52);
+        album.addTrack("Sleep Sound", 3.52);
         albums.add(album);
 
-        /*The playlists are stored in an linked list. The albums are stored in an array list.*/
-        LinkedList<Song> playList = new LinkedList<>();
-        albums.get(0).addToPlaylist("Summit", playList);
-        albums.get(0).addToPlaylist("Kyoto", playList);
-        albums.get(0).addToPlaylist("Ease My Mind", playList);
-        albums.get(0).addToPlaylist(4, playList);
+        /*The play lists are stored in an linked list. The albums are stored in an array list.*/
+        LinkedList<Track> playList = new LinkedList<>();
+        albums.get(0).addToPlaylist("Sleepless", playList);
+        albums.get(0).addToPlaylist("Ezra", playList);
+        albums.get(0).addToPlaylist("Insane", playList);
+        albums.get(0).addToPlaylist(2, playList);
 
         play(playList);
     }
 
-    private static void play(LinkedList<Song> playList) {
+    private static void play(LinkedList<Track> playList) {
         Scanner scanner = new Scanner(System.in);
         boolean quit = false;
         boolean forward = true;
-        ListIterator<Song> listIterator = playList.listIterator();
+        ListIterator<Track> listIterator = playList.listIterator();
 
         if (playList.size() == 0) {
-            System.out.println("No songs in playlist.");
+            System.out.println("No tracks in playlist.");
             return;
         } else {
             System.out.println("Now playing " + listIterator.next().toString());
@@ -87,15 +85,15 @@ public class LinkedMainPt2 {
                     }
                     break;
                 case 3:
-                    if(forward) {
-                        if(listIterator.hasPrevious()) {
+                    if (forward) {
+                        if (listIterator.hasPrevious()) {
                             System.out.println("Now replaying " + listIterator.previous().toString());
                             forward = false;
                         } else {
                             System.out.println("Beginning of the playlist.");
                         }
                     } else {
-                        if(listIterator.hasNext()) {
+                        if (listIterator.hasNext()) {
                             System.out.println("Now replaying " + listIterator.next().toString());
                             forward = true;
                         } else {
@@ -104,9 +102,19 @@ public class LinkedMainPt2 {
                     }
                     break;
                 case 4:
+                    if(playList.size() > 0) {
+                        listIterator.remove();
+                        if(listIterator.hasNext()) {
+                            System.out.println("Now playing " + listIterator.next());
+                        } else if(listIterator.hasPrevious()) {
+                            System.out.println("Now playing " + listIterator.previous());
+                        }
+                    }
+                        break;
+                case 5:
                     printList(playList);
                     break;
-                case 5:
+                case 6:
                     printMenu();
                     break;
             }
@@ -119,12 +127,13 @@ public class LinkedMainPt2 {
                 "1 - Next track.\n" +
                 "2 - Last track.\n" +
                 "3 - Replay current track.\n" +
-                "4 - List tracks in current playlist.\n" +
-                "5 - Print available actions.");
+                "4 - Remove current track.\n" +
+                "5 - List tracks in current playlist.\n" +
+                "6 - Print available actions.");
     }
 
-    public static void printList(LinkedList<Song> playList) {
-        Iterator<Song> iterator = playList.iterator();
+    public static void printList(LinkedList<Track> playList) {
+        Iterator<Track> iterator = playList.iterator();
         System.out.println("------------------------");
         while (iterator.hasNext()) {
             System.out.println(iterator.next().toString());
