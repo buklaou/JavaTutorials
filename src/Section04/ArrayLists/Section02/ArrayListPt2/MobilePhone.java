@@ -1,7 +1,6 @@
-package Arrays.ArrayListPt2;
+package Section04.ArrayLists.Section02.ArrayListPt2;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 /**
  * Created by Raffi on 1/8/2016.

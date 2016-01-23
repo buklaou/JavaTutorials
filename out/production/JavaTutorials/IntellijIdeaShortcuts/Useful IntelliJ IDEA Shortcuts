@@ -1,0 +1,16 @@
+Typing pvsm then hitting tab: public static void main(String[] args)
+Typing sout then hitting tab: System.out.println("");
+Alt + Insert: Options for constructor, getter, setter, getter and setters
+Alt + Enter: Show list of available intention actions.
+Alt + F1: Switch between views (Project, Structure, etc.)
+Ctrl + O: Override this method
+Ctrl + I: Implement methods from interface
+Ctrl + K: Commit to github
+Ctrl + D: Duplicate code selection
+Ctrl + Alt + S: Settings
+Ctrl + Alt + Shift + S: Project Structure
+Ctrl + Tab: Switch between tool windows and files opened in the editor
+Shift + F6: Rename a variable and all instances of that variable.
+Ctrl + Slash: comment or uncomment a line //
+Ctrl + Shift + Slash: comment or uncomment a line or block of code /*   */
+Ctrl + Alt + L: Reformat code
