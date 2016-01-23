@@ -33,6 +33,17 @@ public class LinkedMainPt2 {
         play(playList);
     }
 
+    public static void printMenu() {
+        System.out.println("Available actions: \n Enter ");
+        System.out.println("0 - Quit\n" +
+                "1 - Next track.\n" +
+                "2 - Last track.\n" +
+                "3 - Replay current track.\n" +
+                "4 - Remove current track.\n" +
+                "5 - List tracks in current playlist.\n" +
+                "6 - Print available actions.");
+    }
+
     private static void play(LinkedList<Track> playList) {
         Scanner scanner = new Scanner(System.in);
         boolean quit = false;
@@ -121,16 +132,6 @@ public class LinkedMainPt2 {
         }
     }
 
-    public static void printMenu() {
-        System.out.println("Available actions: \n Enter ");
-        System.out.println("0 - Quit\n" +
-                "1 - Next track.\n" +
-                "2 - Last track.\n" +
-                "3 - Replay current track.\n" +
-                "4 - Remove current track.\n" +
-                "5 - List tracks in current playlist.\n" +
-                "6 - Print available actions.");
-    }
 
     public static void printList(LinkedList<Track> playList) {
         Iterator<Track> iterator = playList.iterator();

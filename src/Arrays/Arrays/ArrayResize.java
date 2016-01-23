@@ -16,10 +16,6 @@ public class ArrayResize {
         getInput();
         printArray(baseData);
         resizeArray();
-        printArray(baseData);
-        System.out.println("Enter more integers");
-        getInput();
-        printArray(baseData);
     }
 
 
@@ -51,6 +47,12 @@ public class ArrayResize {
             baseData = new int[resizeAmount];
             for (int i = 0; i < original.length; i++)
                 baseData[i] = original[i];
+
+            printArray(baseData);
+            System.out.println("| Enter new array numbers.");
+            getInput();
+            printArray(baseData);
         }
+
     }
 }

@@ -12,6 +12,10 @@ public class LinkedMain {
     public static void main(String[] args) {
 
         //Linked List to store names of cities to visit in Europe
+        /*List<String> placesToVisit = new LinkedList<>();
+        * The above line is a better way to make use of Java's built in interfaces and is
+        * a better way of coding and creating Lists. First you create it using List and specify
+        * the list you are using on the right side (such as LinkedList, ArrayList, Vector)*/
         LinkedList<String> placesToVisit = new LinkedList<>();
         /*placesToVisit.add("Barcelona");
         placesToVisit.add("Ibiza");
@@ -115,7 +119,7 @@ public class LinkedMain {
         ListIterator<String> listIterator = cities.listIterator();
 
         if (cities.isEmpty()) {
-            System.out.println("No cities in the itenerary.");
+            System.out.println("No cities in the itinerary.");
             return;
         } else {
             System.out.println("Now visiting " + listIterator.next());

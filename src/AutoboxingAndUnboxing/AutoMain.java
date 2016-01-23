@@ -45,14 +45,14 @@ public class AutoMain {
 
         /*For integers, you can create a variable integer with the functionality of the Integer/Double classes
         * that are built into Java. These are called Wrapper classes.*/
-        Integer integer = new Integer(54);
-        Double doubleValue = new Double(12.25d);
-        Long longValue = new Long(123L);
-        Short shortValue = new Short((short) 32767);
-        Float floatValue = new Float(123);
-        Character charValue = new Character('\u00A5');
-        Byte byteValue = new Byte((byte) 10);
-        Boolean booleanValue = new Boolean(true);
+        Integer integer = 54;
+        Double doubleValue = 12.25d;
+        Long longValue = 123L;
+        Short shortValue = 32767;
+        Float floatValue = 123f;
+        Character charValue = '\u00A5';
+        Byte byteValue = 10;
+        Boolean booleanValue = true;
 
 
         /*Autoboxing is when you create and convert a base primitive type int to an Integer class.
