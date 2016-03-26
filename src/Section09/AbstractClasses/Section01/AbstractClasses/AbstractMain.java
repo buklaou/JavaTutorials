@@ -11,7 +11,7 @@ package Section09.AbstractClasses.Section01.AbstractClasses;
 * 2. Can have constructors.
 * 3. Methods can have any visibility.
 * 4. Can have defined methods.
-* 
+*
 * Interfaces:
 * 1. Can have variables but they are all public static final variables (constant values that should never change
 * with a static scope). Must be static because non static variables require an instance and you can't instanstiate an

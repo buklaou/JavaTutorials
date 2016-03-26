@@ -8,6 +8,7 @@ Ctrl + I: Implement methods from interface
 Ctrl + K: Commit to github
 Ctrl + D: Duplicate code selection
 Ctrl + Alt + S: Settings
+Ctrl + Alt + T: Surround block of code with Language Constructs
 Ctrl + Alt + Shift + S: Project Structure
 Ctrl + Tab: Switch between tool windows and files opened in the editor
 Shift + F6: Rename a variable and all instances of that variable.
