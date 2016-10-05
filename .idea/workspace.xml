@@ -1,106 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d120a34f-7a68-4766-8563-55041de6dbb9" name="Default" comment="Generics Part 2&#10;Array Reverse&#10;Template Changes">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Section03/Arrays/Section03/ArrayReverse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Section10/Generics/Section02/BaseballPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Section10/Generics/Section02/FootballPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Section10/Generics/Section02/GenericsMain2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Section10/Generics/Section02/Player.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Section10/Generics/Section02/SoccerPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Section10/Generics/Section02/Team.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Raffi.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Raffi.xml" />
+    <list default="true" id="d120a34f-7a68-4766-8563-55041de6dbb9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT001HelloWorld.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT001HelloWorld.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypes.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypesPt2.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypesPt2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypesPt3.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypesPt3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypesPt4.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypesPt4.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT003Operators.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT003Operators.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT004Statements.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT004Statements.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT005IfAndCodeBlocks.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT005IfAndCodeBlocks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT006Method.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT006Method.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT006MethodOverloading.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT006MethodOverloading.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT007ControlFlowStatements.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT007ControlFlowStatements.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT007ControlFlowStatementsPt2.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT007ControlFlowStatementsPt2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT007ControlFlowStatementsPt3.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT007ControlFlowStatementsPt3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section01/Classes/Car.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section01/Classes/Car.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section01/Classes/Main.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section01/Classes/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section02/Constructors/Account.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section02/Constructors/Account.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section02/Constructors/Main.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section02/Constructors/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section02/Constructors/VipCustomer.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section02/Constructors/VipCustomer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Animal.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Animal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Dog.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Dog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Fish.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Fish.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Main.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/Car.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/Car.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/GTR.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/GTR.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/Main.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/Vehicle.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/Vehicle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Case.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Case.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Dimensions.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Dimensions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Main.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Monitor.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Monitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Motherboard.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Motherboard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/PC.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/PC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Resolution.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Resolution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Bed.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Bed.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Bedroom.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Bedroom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Closet.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Closet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Clothes.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Clothes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Dimensions.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Dimensions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Main.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Table.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Table.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section07/Encapsulation/EnhancedGamer.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section07/Encapsulation/EnhancedGamer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section07/Encapsulation/Gamer.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section07/Encapsulation/Gamer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section07/Encapsulation/enMain.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section07/Encapsulation/enMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section08/EncapsulationPt2/Printer.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section08/EncapsulationPt2/Printer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section08/EncapsulationPt2/enMain.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section08/EncapsulationPt2/enMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section09/Polymorphism/PolyMain.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section09/Polymorphism/PolyMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section10/PolymorphismPt2/PolyMain2.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section10/PolymorphismPt2/PolyMain2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/DeluxeHamburger.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/DeluxeHamburger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/Hamburger.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/Hamburger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/HealthyHamburger.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/HealthyHamburger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/Menu.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/Menu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/OOPMain.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/OOPMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section03/Arrays/Section01/ArrayMain.java" afterPath="$PROJECT_DIR$/src/Section03/Arrays/Section01/ArrayMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section03/Arrays/Section02/ArrayResize.java" afterPath="$PROJECT_DIR$/src/Section03/Arrays/Section02/ArrayResize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section03/Arrays/Section03/ArraySort.java" afterPath="$PROJECT_DIR$/src/Section03/Arrays/Section03/ArraySort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section04/ArrayLists/Section01/ArrayList/ArrayListMain.java" afterPath="$PROJECT_DIR$/src/Section04/ArrayLists/Section01/ArrayList/ArrayListMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section04/ArrayLists/Section01/ArrayList/GroceryList.java" afterPath="$PROJECT_DIR$/src/Section04/ArrayLists/Section01/ArrayList/GroceryList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section04/ArrayLists/Section02/ArrayListPt2/ArrayListPt2Main.java" afterPath="$PROJECT_DIR$/src/Section04/ArrayLists/Section02/ArrayListPt2/ArrayListPt2Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section04/ArrayLists/Section02/ArrayListPt2/Contacts.java" afterPath="$PROJECT_DIR$/src/Section04/ArrayLists/Section02/ArrayListPt2/Contacts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section04/ArrayLists/Section02/ArrayListPt2/MobilePhone.java" afterPath="$PROJECT_DIR$/src/Section04/ArrayLists/Section02/ArrayListPt2/MobilePhone.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section01/AutoboxingAndUnboxing/AutoMain.java" afterPath="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section01/AutoboxingAndUnboxing/AutoMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section02/AutoboxingAndUnboxingPt2/AutoMain2.java" afterPath="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section02/AutoboxingAndUnboxingPt2/AutoMain2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section02/AutoboxingAndUnboxingPt2/Bank.java" afterPath="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section02/AutoboxingAndUnboxingPt2/Bank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section02/AutoboxingAndUnboxingPt2/Branch.java" afterPath="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section02/AutoboxingAndUnboxingPt2/Branch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section02/AutoboxingAndUnboxingPt2/Customer.java" afterPath="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section02/AutoboxingAndUnboxingPt2/Customer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section06/LinkedLists/Section01/LinkedList/LinkedMain.java" afterPath="$PROJECT_DIR$/src/Section06/LinkedLists/Section01/LinkedList/LinkedMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section06/LinkedLists/Section02/LinkedListPt2/Album.java" afterPath="$PROJECT_DIR$/src/Section06/LinkedLists/Section02/LinkedListPt2/Album.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section06/LinkedLists/Section02/LinkedListPt2/LinkedMainPt2.java" afterPath="$PROJECT_DIR$/src/Section06/LinkedLists/Section02/LinkedListPt2/LinkedMainPt2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section06/LinkedLists/Section02/LinkedListPt2/Track.java" afterPath="$PROJECT_DIR$/src/Section06/LinkedLists/Section02/LinkedListPt2/Track.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/ITelephone.java" afterPath="$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/ITelephone.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/InterfaceMain.java" afterPath="$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/InterfaceMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/MobilePhone.java" afterPath="$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/MobilePhone.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/Phone.java" afterPath="$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/Phone.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/ISaveable.java" afterPath="$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/ISaveable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/InterfacePt2Main.java" afterPath="$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/InterfacePt2Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/Monster.java" afterPath="$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/Monster.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/Player.java" afterPath="$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/Player.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section08/InnerClasses/Section01/InnerClassesPt1/Button.java" afterPath="$PROJECT_DIR$/src/Section08/InnerClasses/Section01/InnerClassesPt1/Button.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section08/InnerClasses/Section01/InnerClassesPt1/Gearbox.java" afterPath="$PROJECT_DIR$/src/Section08/InnerClasses/Section01/InnerClassesPt1/Gearbox.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section08/InnerClasses/Section01/InnerClassesPt1/InnerMain.java" afterPath="$PROJECT_DIR$/src/Section08/InnerClasses/Section01/InnerClassesPt1/InnerMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section08/InnerClasses/Section02/InnerClassesPt2/Albums.java" afterPath="$PROJECT_DIR$/src/Section08/InnerClasses/Section02/InnerClassesPt2/Albums.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section08/InnerClasses/Section02/InnerClassesPt2/InnerMainPt2.java" afterPath="$PROJECT_DIR$/src/Section08/InnerClasses/Section02/InnerClassesPt2/InnerMainPt2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section08/InnerClasses/Section02/InnerClassesPt2/Tracks.java" afterPath="$PROJECT_DIR$/src/Section08/InnerClasses/Section02/InnerClassesPt2/Tracks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/AbstractMain.java" afterPath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/AbstractMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Animal.java" afterPath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Animal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Bird.java" afterPath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Bird.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/CanFly.java" afterPath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/CanFly.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Dog.java" afterPath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Dog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Eagle.java" afterPath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Eagle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Penguin.java" afterPath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Penguin.java" />
     </list>
     <ignored path="JavaTutorials.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1224,7 +1126,7 @@
       <workItem from="1468729953970" duration="6000" />
       <workItem from="1473896189192" duration="735000" />
       <workItem from="1475368296960" duration="169000" />
-      <workItem from="1475640212657" duration="9643000" />
+      <workItem from="1475640212657" duration="9674000" />
     </task>
     <task id="LOCAL-00001" summary="Added Variables&#10;">
       <created>1450870887752</created>
@@ -1380,11 +1282,18 @@
       <option name="project" value="LOCAL" />
       <updated>1453522765791</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Generics Part 2&#10;Array Reverse&#10;Template Changes">
+      <created>1475659649389</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1475659649389</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206229000" />
+    <option name="totallyTimeSpent" value="206260000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
