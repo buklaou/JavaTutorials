@@ -1,7 +1,7 @@
 package Section02.OOP.Section02.Constructors;
 
 /**
- * Created by Raffi on 12/26/2015.
+ * @author Raffi
  */
 public class Account {
 

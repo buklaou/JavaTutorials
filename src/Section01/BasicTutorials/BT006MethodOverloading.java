@@ -7,7 +7,7 @@ public class BT006MethodOverloading {
 
 
     /*You cannot have the same method with same parameters. Although if you
-    * change the parameters it recieves there will be no error.*/
+    * change the parameters it receives there will be no error.*/
     public static void main(String[] args) {
         calculateScore("Raffi", 500);
         calculateScore(750);

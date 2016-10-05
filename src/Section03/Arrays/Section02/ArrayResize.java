@@ -1,9 +1,9 @@
-package Section03.Arrays.Section01.Arrays;
+package Section03.Arrays.Section02;
 
 import java.util.Scanner;
 
 /**
- * Created by Raffi on 1/1/2016.
+ * @author Raffi
  */
 
 public class ArrayResize {

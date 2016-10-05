@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 
 /**
- * Created by Raffi on 1/18/2016.
+ * @author Raffi
  */
 public class Album {
 

@@ -1,7 +1,7 @@
 package Section07.Interfaces.Section01.Interfaces;
 
 /**
- * Created by Raffi on 1/22/2016.
+ * @author Raffi
  */
 public class MobilePhone implements ITelephone {
 

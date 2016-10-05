@@ -3,7 +3,7 @@ package Section08.InnerClasses.Section01.InnerClassesPt1;
 import java.util.Scanner;
 
 /**
- * Created by Raffi on 1/22/2016.
+ * @author Raffi
  */
 public class InnerMain {
 

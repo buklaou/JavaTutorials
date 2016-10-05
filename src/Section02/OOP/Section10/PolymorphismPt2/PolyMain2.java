@@ -1,7 +1,7 @@
 package Section02.OOP.Section10.PolymorphismPt2;
 
 /**
- * Created by Raffi on 12/30/2015.
+ * @author Raffi
  */
 
 class Car {

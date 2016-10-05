@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * Created by Raffi on 1/2/2016.
+ * @author Raffi
  */
 public class ArrayListMain {
 

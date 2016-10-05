@@ -3,7 +3,7 @@ package Section08.InnerClasses.Section01.InnerClassesPt1;
 import java.util.ArrayList;
 
 /**
- * Created by Raffi on 1/22/2016.
+ * @author Raffi
  */
 
 /*Gear is an inner class of Gearbox. Instances of the gear class have access to all the

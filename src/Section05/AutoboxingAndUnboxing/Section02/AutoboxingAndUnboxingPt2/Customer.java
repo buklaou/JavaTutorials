@@ -3,7 +3,7 @@ package Section05.AutoboxingAndUnboxing.Section02.AutoboxingAndUnboxingPt2;
 import java.util.ArrayList;
 
 /**
- * Created by Raffi on 1/17/2016.
+ * @author Raffi
  */
 public class Customer {
 

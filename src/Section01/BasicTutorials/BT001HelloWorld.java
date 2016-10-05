@@ -2,7 +2,6 @@ package Section01.BasicTutorials;
 
 /**
  * @author Raffi
- *
  */
 public class BT001HelloWorld {
 

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Raffi on 1/22/2016.
+ * @author Raffi
  */
 public class Player implements ISaveable {
 

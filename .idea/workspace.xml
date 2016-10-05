@@ -1,9 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d120a34f-7a68-4766-8563-55041de6dbb9" name="Default" comment="File Restructure">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Section10/Generics/Section01/GenericsMain.java" />
+    <list default="true" id="d120a34f-7a68-4766-8563-55041de6dbb9" name="Default" comment="Generics Part 2&#10;Array Reverse&#10;Template Changes">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Section03/Arrays/Section03/ArrayReverse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Section10/Generics/Section02/BaseballPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Section10/Generics/Section02/FootballPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Section10/Generics/Section02/GenericsMain2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Section10/Generics/Section02/Player.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Section10/Generics/Section02/SoccerPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Section10/Generics/Section02/Team.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Raffi.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Raffi.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT001HelloWorld.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT001HelloWorld.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypes.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypesPt2.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypesPt2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypesPt3.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypesPt3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypesPt4.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypesPt4.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT003Operators.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT003Operators.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT004Statements.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT004Statements.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT005IfAndCodeBlocks.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT005IfAndCodeBlocks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT006Method.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT006Method.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT006MethodOverloading.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT006MethodOverloading.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT007ControlFlowStatements.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT007ControlFlowStatements.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT007ControlFlowStatementsPt2.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT007ControlFlowStatementsPt2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT007ControlFlowStatementsPt3.java" afterPath="$PROJECT_DIR$/src/Section01/BasicTutorials/BT007ControlFlowStatementsPt3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section01/Classes/Car.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section01/Classes/Car.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section01/Classes/Main.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section01/Classes/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section02/Constructors/Account.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section02/Constructors/Account.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section02/Constructors/Main.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section02/Constructors/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section02/Constructors/VipCustomer.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section02/Constructors/VipCustomer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Animal.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Animal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Dog.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Dog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Fish.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Fish.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Main.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/Car.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/Car.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/GTR.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/GTR.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/Main.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/Vehicle.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/Vehicle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Case.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Case.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Dimensions.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Dimensions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Main.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Monitor.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Monitor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Motherboard.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Motherboard.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/PC.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/PC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Resolution.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Resolution.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Bed.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Bed.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Bedroom.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Bedroom.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Closet.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Closet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Clothes.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Clothes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Dimensions.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Dimensions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Main.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Table.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Table.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section07/Encapsulation/EnhancedGamer.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section07/Encapsulation/EnhancedGamer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section07/Encapsulation/Gamer.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section07/Encapsulation/Gamer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section07/Encapsulation/enMain.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section07/Encapsulation/enMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section08/EncapsulationPt2/Printer.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section08/EncapsulationPt2/Printer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section08/EncapsulationPt2/enMain.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section08/EncapsulationPt2/enMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section09/Polymorphism/PolyMain.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section09/Polymorphism/PolyMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section10/PolymorphismPt2/PolyMain2.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section10/PolymorphismPt2/PolyMain2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/DeluxeHamburger.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/DeluxeHamburger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/Hamburger.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/Hamburger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/HealthyHamburger.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/HealthyHamburger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/Menu.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/Menu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/OOPMain.java" afterPath="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/OOPMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section03/Arrays/Section01/ArrayMain.java" afterPath="$PROJECT_DIR$/src/Section03/Arrays/Section01/ArrayMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section03/Arrays/Section02/ArrayResize.java" afterPath="$PROJECT_DIR$/src/Section03/Arrays/Section02/ArrayResize.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section03/Arrays/Section03/ArraySort.java" afterPath="$PROJECT_DIR$/src/Section03/Arrays/Section03/ArraySort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section04/ArrayLists/Section01/ArrayList/ArrayListMain.java" afterPath="$PROJECT_DIR$/src/Section04/ArrayLists/Section01/ArrayList/ArrayListMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section04/ArrayLists/Section01/ArrayList/GroceryList.java" afterPath="$PROJECT_DIR$/src/Section04/ArrayLists/Section01/ArrayList/GroceryList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section04/ArrayLists/Section02/ArrayListPt2/ArrayListPt2Main.java" afterPath="$PROJECT_DIR$/src/Section04/ArrayLists/Section02/ArrayListPt2/ArrayListPt2Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section04/ArrayLists/Section02/ArrayListPt2/Contacts.java" afterPath="$PROJECT_DIR$/src/Section04/ArrayLists/Section02/ArrayListPt2/Contacts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section04/ArrayLists/Section02/ArrayListPt2/MobilePhone.java" afterPath="$PROJECT_DIR$/src/Section04/ArrayLists/Section02/ArrayListPt2/MobilePhone.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section01/AutoboxingAndUnboxing/AutoMain.java" afterPath="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section01/AutoboxingAndUnboxing/AutoMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section02/AutoboxingAndUnboxingPt2/AutoMain2.java" afterPath="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section02/AutoboxingAndUnboxingPt2/AutoMain2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section02/AutoboxingAndUnboxingPt2/Bank.java" afterPath="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section02/AutoboxingAndUnboxingPt2/Bank.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section02/AutoboxingAndUnboxingPt2/Branch.java" afterPath="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section02/AutoboxingAndUnboxingPt2/Branch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section02/AutoboxingAndUnboxingPt2/Customer.java" afterPath="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section02/AutoboxingAndUnboxingPt2/Customer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section06/LinkedLists/Section01/LinkedList/LinkedMain.java" afterPath="$PROJECT_DIR$/src/Section06/LinkedLists/Section01/LinkedList/LinkedMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section06/LinkedLists/Section02/LinkedListPt2/Album.java" afterPath="$PROJECT_DIR$/src/Section06/LinkedLists/Section02/LinkedListPt2/Album.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section06/LinkedLists/Section02/LinkedListPt2/LinkedMainPt2.java" afterPath="$PROJECT_DIR$/src/Section06/LinkedLists/Section02/LinkedListPt2/LinkedMainPt2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section06/LinkedLists/Section02/LinkedListPt2/Track.java" afterPath="$PROJECT_DIR$/src/Section06/LinkedLists/Section02/LinkedListPt2/Track.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/ITelephone.java" afterPath="$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/ITelephone.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/InterfaceMain.java" afterPath="$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/InterfaceMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/MobilePhone.java" afterPath="$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/MobilePhone.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/Phone.java" afterPath="$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/Phone.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/ISaveable.java" afterPath="$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/ISaveable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/InterfacePt2Main.java" afterPath="$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/InterfacePt2Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/Monster.java" afterPath="$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/Monster.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/Player.java" afterPath="$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section08/InnerClasses/Section01/InnerClassesPt1/Button.java" afterPath="$PROJECT_DIR$/src/Section08/InnerClasses/Section01/InnerClassesPt1/Button.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section08/InnerClasses/Section01/InnerClassesPt1/Gearbox.java" afterPath="$PROJECT_DIR$/src/Section08/InnerClasses/Section01/InnerClassesPt1/Gearbox.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section08/InnerClasses/Section01/InnerClassesPt1/InnerMain.java" afterPath="$PROJECT_DIR$/src/Section08/InnerClasses/Section01/InnerClassesPt1/InnerMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section08/InnerClasses/Section02/InnerClassesPt2/Albums.java" afterPath="$PROJECT_DIR$/src/Section08/InnerClasses/Section02/InnerClassesPt2/Albums.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section08/InnerClasses/Section02/InnerClassesPt2/InnerMainPt2.java" afterPath="$PROJECT_DIR$/src/Section08/InnerClasses/Section02/InnerClassesPt2/InnerMainPt2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section08/InnerClasses/Section02/InnerClassesPt2/Tracks.java" afterPath="$PROJECT_DIR$/src/Section08/InnerClasses/Section02/InnerClassesPt2/Tracks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/AbstractMain.java" afterPath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/AbstractMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Animal.java" afterPath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Animal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Bird.java" afterPath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Bird.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/CanFly.java" afterPath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/CanFly.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Dog.java" afterPath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Dog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Eagle.java" afterPath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Eagle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Penguin.java" afterPath="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Penguin.java" />
     </list>
     <ignored path="JavaTutorials.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,7 +113,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/JavaTutorials$OOPMain.coverage" NAME="OOPMain Coverage Results" MODIFIED="1451555050980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>OOPProject.*</FILTER>
@@ -37,18 +133,7 @@
     <favorites_list name="JavaTutorials" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GenericsMain.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Section10/Generics/Section01/GenericsMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,64 +154,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Interfaces/Phone.java" />
-        <option value="$PROJECT_DIR$/src/Interfaces/MobilePhone.java" />
-        <option value="$PROJECT_DIR$/src/Interfaces/InterfaceMain.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList/LinkedMain.java" />
-        <option value="$PROJECT_DIR$/src/Section02/OOP/Polymorphism/PolyMain.java" />
-        <option value="$PROJECT_DIR$/src/Section02/OOP/Encapsulation/EnhancedGamer.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/OOPMain.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/Menu.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/HealthyHamburger.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/Hamburger.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/DeluxeHamburger.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section10/PolymorphismPt2/PolyMain2.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section09/Polymorphism/PolyMain.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section08/EncapsulationPt2/Printer.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section08/EncapsulationPt2/enMain.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section07/Encapsulation/Gamer.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section07/Encapsulation/enMain.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section07/Encapsulation/EnhancedGamer.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Bed.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Bedroom.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Closet.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Clothes.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Dimensions.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Main.java" />
         <option value="$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Table.java" />
-        <option value="$PROJECT_DIR$/src/Section04/ArrayLists/Section01/ArrayList/GroceryList.java" />
-        <option value="$PROJECT_DIR$/src/Section06/LinkedLists/Section01/LinkedList/LinkedMain.java" />
-        <option value="$PROJECT_DIR$/src/Section06/LinkedLists/Section02/LinkedListPt2/Album.java" />
-        <option value="$PROJECT_DIR$/src/Section06/LinkedLists/Section02/LinkedListPt2/LinkedMainPt2.java" />
-        <option value="$PROJECT_DIR$/src/Section06/LinkedLists/Section02/LinkedListPt2/Track.java" />
-        <option value="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section02/AutoboxingAndUnboxingPt2/AutoMain2.java" />
-        <option value="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section02/AutoboxingAndUnboxingPt2/Bank.java" />
-        <option value="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section02/AutoboxingAndUnboxingPt2/Branch.java" />
-        <option value="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section02/AutoboxingAndUnboxingPt2/Customer.java" />
-        <option value="$PROJECT_DIR$/src/Section05/AutoboxingAndUnboxing/Section01/AutoboxingAndUnboxing/AutoMain.java" />
-        <option value="$PROJECT_DIR$/src/Section04/ArrayLists/Section02/ArrayListPt2/ArrayListPt2Main.java" />
-        <option value="$PROJECT_DIR$/src/Section04/ArrayLists/Section02/ArrayListPt2/Contacts.java" />
-        <option value="$PROJECT_DIR$/src/Section04/ArrayLists/Section02/ArrayListPt2/MobilePhone.java" />
-        <option value="$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/Phone.java" />
-        <option value="$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/MobilePhone.java" />
-        <option value="$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/InterfaceMain.java" />
-        <option value="$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/ITelephone.java" />
-        <option value="$PROJECT_DIR$/src/Section03/Arrays/ArrayLists/Section01/ArrayList/ArrayListMain.java" />
-        <option value="$PROJECT_DIR$/src/Section04/ArrayLists/Section01/ArrayList/ArrayListMain.java" />
-        <option value="$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/ISaveable.java" />
-        <option value="$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/Player.java" />
-        <option value="$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/Monster.java" />
-        <option value="$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/InterfacePt2Main.java" />
-        <option value="$PROJECT_DIR$/src/Section08/InnerClasses/Section01/InnerClassesPt1/Gearbox.java" />
-        <option value="$PROJECT_DIR$/src/Section08/InnerClasses/Section01/InnerClassesPt1/Button.java" />
-        <option value="$PROJECT_DIR$/src/Section08/InnerClasses/Section01/InnerClassesPt1/InnerMain.java" />
-        <option value="$PROJECT_DIR$/src/Section08/InnerClasses/Section02/InnerClassesPt2/Tracks.java" />
-        <option value="$PROJECT_DIR$/src/Section08/InnerClasses/Section02/InnerClassesPt2/Albums.java" />
-        <option value="$PROJECT_DIR$/src/Section08/InnerClasses/Section02/InnerClassesPt2/InnerMainPt2.java" />
-        <option value="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Animal.java" />
-        <option value="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/AbstractMain.java" />
-        <option value="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Dog.java" />
-        <option value="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Penguin.java" />
-        <option value="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Eagle.java" />
-        <option value="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Bird.java" />
-        <option value="$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/CanFly.java" />
-        <option value="$PROJECT_DIR$/src/IntellijIdeaShortcuts/Useful IntelliJ IDEA Shortcuts" />
-        <option value="$PROJECT_DIR$/src/Section09/AbstractClasses/Section02/AbstractClassesPt2/ListItem.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Case.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Dimensions.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Main.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Monitor.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Motherboard.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/PC.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Resolution.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/Vehicle.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/Main.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/GTR.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/Car.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Main.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Fish.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Dog.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Animal.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section02/Constructors/Account.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section02/Constructors/Main.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section02/Constructors/VipCustomer.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section01/Classes/Main.java" />
+        <option value="$PROJECT_DIR$/src/Section02/OOP/Section01/Classes/Car.java" />
+        <option value="$PROJECT_DIR$/src/Section01/BasicTutorials/BT007ControlFlowStatements.java" />
+        <option value="$PROJECT_DIR$/src/Section01/BasicTutorials/BT007ControlFlowStatementsPt2.java" />
+        <option value="$PROJECT_DIR$/src/Section01/BasicTutorials/BT007ControlFlowStatementsPt3.java" />
+        <option value="$PROJECT_DIR$/src/Section01/BasicTutorials/BT006Method.java" />
         <option value="$PROJECT_DIR$/src/Section01/BasicTutorials/BT001HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/Section09/AbstractClasses/Section02/AbstractClassesPt2/Node.java" />
-        <option value="$PROJECT_DIR$/src/Section09/AbstractClasses/Section02/AbstractClassesPt2/NodeList.java" />
-        <option value="$PROJECT_DIR$/src/Section09/AbstractClasses/Section02/AbstractClassesPt2/MyLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/Section09/AbstractClasses/Section02/AbstractClassesPt2/AbstractMain2.java" />
-        <option value="$PROJECT_DIR$/src/Section10/Generics/Section01/GenericsMain.java" />
+        <option value="$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypes.java" />
+        <option value="$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypesPt2.java" />
+        <option value="$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypesPt3.java" />
+        <option value="$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypesPt4.java" />
+        <option value="$PROJECT_DIR$/src/Section01/BasicTutorials/BT003Operators.java" />
+        <option value="$PROJECT_DIR$/src/Section01/BasicTutorials/BT005IfAndCodeBlocks.java" />
+        <option value="$PROJECT_DIR$/src/Section01/BasicTutorials/BT004Statements.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -169,8 +255,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -202,46 +288,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Generics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaTutorials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaTutorials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Generics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Section01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaTutorials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaTutorials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -252,9 +298,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="GO_FMT" value="false" />
@@ -264,15 +310,15 @@
       <recent name="PolymorphismPt2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericsMain">
-    <configuration default="false" name="AbstractMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ArrayReverse">
+    <configuration default="false" name="BT003Operators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Section09.AbstractClasses.Section01.AbstractClasses.*" />
+          <option name="PATTERN" value="Section01.BasicTutorials.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Section09.AbstractClasses.Section01.AbstractClasses.AbstractMain" />
+      <option name="MAIN_CLASS_NAME" value="Section01.BasicTutorials.BT003Operators" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -305,14 +351,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="InterfaceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Section07.Interfaces.Section01.Interfaces.*" />
+          <option name="PATTERN" value="Section03.Arrays.Section03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Section07.Interfaces.Section01.Interfaces.InterfaceMain" />
+      <option name="MAIN_CLASS_NAME" value="Section03.Arrays.Section03.Solution" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -325,14 +371,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="AbstractMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ArraySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Section09.AbstractClasses.Section02.AbstractClassesPt2.*" />
+          <option name="PATTERN" value="Section03.Arrays.Section01.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Section09.AbstractClasses.Section02.AbstractClassesPt2.AbstractMain2" />
+      <option name="MAIN_CLASS_NAME" value="Section03.Arrays.Section01.Arrays.ArraySort" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -345,14 +391,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="GenericsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ArrayReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Section10.Generics.Section01.*" />
+          <option name="PATTERN" value="Section03.Arrays.Section03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Section10.Generics.Section01.GenericsMain" />
+      <option name="MAIN_CLASS_NAME" value="Section03.Arrays.Section03.ArrayReverse" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -384,11 +430,19 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <method />
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
@@ -404,9 +458,17 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <method />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -488,6 +550,9 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
@@ -947,12 +1012,12 @@
       <method />
     </configuration>
     <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter />
+      <node-interpreter>project</node-interpreter>
       <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
+      <working-directory />
       <pass-parent-env>true</pass-parent-env>
       <envs />
-      <ui>bdd</ui>
+      <ui />
       <extra-mocha-options />
       <test-kind>DIRECTORY</test-kind>
       <test-directory />
@@ -1076,19 +1141,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.AbstractMain" />
+      <item index="0" class="java.lang.String" itemvalue="Application.BT003Operators" />
       <item index="1" class="java.lang.String" itemvalue="Application.ArrayMain" />
-      <item index="2" class="java.lang.String" itemvalue="Application.InterfaceMain" />
-      <item index="3" class="java.lang.String" itemvalue="Application.AbstractMain2" />
-      <item index="4" class="java.lang.String" itemvalue="Application.GenericsMain" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Solution" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ArraySort" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ArrayReverse" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.GenericsMain" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AbstractMain2" />
-        <item index="2" class="java.lang.String" itemvalue="Application.AbstractMain" />
-        <item index="3" class="java.lang.String" itemvalue="Application.InterfaceMain" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ArrayMain" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ArrayReverse" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Solution" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ArraySort" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ArrayMain" />
+        <item index="4" class="java.lang.String" itemvalue="Application.BT003Operators" />
       </list>
     </recent_temporary>
   </component>
@@ -1155,7 +1220,11 @@
       <workItem from="1454873899818" duration="905000" />
       <workItem from="1458631925161" duration="608000" />
       <workItem from="1458948609336" duration="4308000" />
-      <workItem from="1459123712443" duration="2738000" />
+      <workItem from="1459123712443" duration="4613000" />
+      <workItem from="1468729953970" duration="6000" />
+      <workItem from="1473896189192" duration="735000" />
+      <workItem from="1475368296960" duration="169000" />
+      <workItem from="1475640212657" duration="9643000" />
     </task>
     <task id="LOCAL-00001" summary="Added Variables&#10;">
       <created>1450870887752</created>
@@ -1315,7 +1384,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193801000" />
+    <option name="totallyTimeSpent" value="206229000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1328,16 +1397,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49573562" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32675907" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5042644" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39285713" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27025586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1346,13 +1416,12 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32675907" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1416,7 +1485,9 @@
     <MESSAGE value="Linked List Part 2 (Updated)" />
     <MESSAGE value="Interfaces" />
     <MESSAGE value="File Restructure" />
-    <option name="LAST_COMMIT_MESSAGE" value="File Restructure" />
+    <MESSAGE value="Generics Part 2&#10;Array Reverse" />
+    <MESSAGE value="Generics Part 2&#10;Array Reverse&#10;Template Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generics Part 2&#10;Array Reverse&#10;Template Changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1429,363 +1500,410 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Section04/ArrayLists/Section02/ArrayListPt2/MobilePhone.java">
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/OOPMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="52" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section06/LinkedLists/Section02/LinkedListPt2/Track.java">
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section06/LinkedLists/Section02/LinkedListPt2/LinkedMainPt2.java">
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/HealthyHamburger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="145" column="1" selection-start-line="9" selection-start-column="3" selection-end-line="145" selection-end-column="1" />
+        <state relative-caret-position="36">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section06/LinkedLists/Section02/LinkedListPt2/Album.java">
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/Hamburger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section08/InnerClasses/Section02/InnerClassesPt2/Albums.java">
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section11/OOPProject/DeluxeHamburger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section08/InnerClasses/Section02/InnerClassesPt2/InnerMainPt2.java">
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section10/PolymorphismPt2/PolyMain2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section08/InnerClasses/Section02/InnerClassesPt2/Tracks.java">
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section08/EncapsulationPt2/Printer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section08/EncapsulationPt2/enMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/ISaveable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/InterfacePt2Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section07/Interfaces/Section02/InterfacesPt2/Monster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="47" column="65" selection-start-line="47" selection-start-column="65" selection-end-line="47" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section08/InnerClasses/Section01/InnerClassesPt1/InnerMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="50" column="67" selection-start-line="50" selection-start-column="67" selection-end-line="50" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Eagle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypesPt2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypesPt3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section03/Arrays/Section01/ArrayMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="79" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section04/ArrayLists/Section01/ArrayList/GroceryList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section03/Arrays/Section02/ArrayResize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section01/BasicTutorials/BT007ControlFlowStatements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section01/BasicTutorials/BT007ControlFlowStatementsPt2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section01/BasicTutorials/BT007ControlFlowStatementsPt3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section03/Arrays/Section03/ArraySort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section04/ArrayLists/Section01/ArrayList/ArrayListMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Fish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Monitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Motherboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/PC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section09/Polymorphism/PolyMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section08/InnerClasses/Section01/InnerClassesPt1/Gearbox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IntellijIdeaShortcuts/Useful IntelliJ IDEA Shortcuts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/Phone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="34">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/MobilePhone.java">
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section07/Encapsulation/EnhancedGamer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/ITelephone.java">
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section07/Encapsulation/enMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section07/Interfaces/Section01/Interfaces/InterfaceMain.java">
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section07/Encapsulation/Gamer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/CanFly.java">
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Bed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Penguin.java">
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Bedroom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/AbstractMain.java">
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Closet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Animal.java">
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Clothes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section09/AbstractClasses/Section01/AbstractClasses/Bird.java">
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Dimensions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section08/InnerClasses/Section01/InnerClassesPt1/Button.java">
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section06/CompositionPt2/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Case.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Dimensions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Monitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Motherboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/PC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section05/Composition/Resolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/GTR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section04/InheritancePt2/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Fish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section03/Inheritance/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section02/Constructors/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section02/Constructors/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section02/Constructors/VipCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section01/Classes/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section02/OOP/Section01/Classes/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section01/BasicTutorials/BT007ControlFlowStatements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section01/BasicTutorials/BT007ControlFlowStatementsPt2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section01/BasicTutorials/BT007ControlFlowStatementsPt3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section01/BasicTutorials/BT006Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Section01/BasicTutorials/BT001HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section09/AbstractClasses/Section02/AbstractClassesPt2/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypesPt2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section09/AbstractClasses/Section02/AbstractClassesPt2/NodeList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section09/AbstractClasses/Section02/AbstractClassesPt2/ListItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section09/AbstractClasses/Section02/AbstractClassesPt2/AbstractMain2.java">
+    <entry file="file://$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypesPt3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section09/AbstractClasses/Section02/AbstractClassesPt2/MyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/Section01/BasicTutorials/BT002DataTypesPt4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Section10/Generics/Section01/GenericsMain.java">
+    <entry file="file://$PROJECT_DIR$/src/Section01/BasicTutorials/BT003Operators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="34">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section01/BasicTutorials/BT005IfAndCodeBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Section01/BasicTutorials/BT004Statements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1831,7 +1949,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.8 (1)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1848,7 +1966,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

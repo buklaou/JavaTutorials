@@ -6,7 +6,7 @@ import java.util.ListIterator;
 import java.util.Scanner;
 
 /**
- * Created by Raffi on 1/17/2016.
+ * @author Raffi
  */
 public class LinkedMain {
     public static void main(String[] args) {

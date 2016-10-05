@@ -1,7 +1,7 @@
 package Section02.OOP.Section09.Polymorphism;
 
 /**
- * Created by Raffi on 12/30/2015.
+ * @author Raffi
  */
 
 //Polymorphism assigns different functionality to the different types of objects we create.

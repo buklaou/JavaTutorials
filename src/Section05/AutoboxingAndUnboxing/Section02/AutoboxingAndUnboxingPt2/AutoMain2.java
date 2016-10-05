@@ -1,7 +1,7 @@
 package Section05.AutoboxingAndUnboxing.Section02.AutoboxingAndUnboxingPt2;
 
 /**
- * Created by Raffi on 1/17/2016.
+ * @author Raffi
  */
 public class AutoMain2 {
     public static void main(String[] args) {

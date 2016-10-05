@@ -3,7 +3,7 @@ package Section04.ArrayLists.Section01.ArrayList;
 import java.util.ArrayList;
 
 /**
- * Created by Raffi on 1/2/2016.
+ * @author Raffi
  */
 public class GroceryList {
 

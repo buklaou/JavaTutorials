@@ -1,7 +1,7 @@
 package Section02.OOP.Section08.EncapsulationPt2;
 
 /**
- * Created by Raffi on 12/28/2015.
+ * @author Raffi
  */
 public class Printer {
 

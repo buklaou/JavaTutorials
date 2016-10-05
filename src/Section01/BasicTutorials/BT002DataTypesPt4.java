@@ -1,7 +1,7 @@
 package Section01.BasicTutorials;
 
 /**
- * Created by Raffi on 12/24/2015.
+ * @author Raffi
  */
 public class BT002DataTypesPt4 {
 

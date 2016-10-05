@@ -1,7 +1,7 @@
 package Section09.AbstractClasses.Section01.AbstractClasses;
 
 /**
- * Created by Raffi on 1/23/2016.
+ * @author Raffi
  */
 
 /*This abstract class extends from the abstract Animal class and implements the CanFly interface.*/

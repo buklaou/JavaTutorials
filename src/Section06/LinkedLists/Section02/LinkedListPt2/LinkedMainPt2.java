@@ -3,7 +3,7 @@ package Section06.LinkedLists.Section02.LinkedListPt2;
 import java.util.*;
 
 /**
- * Created by Raffi on 1/18/2016.
+ * @author Raffi
  */
 public class LinkedMainPt2 {
 

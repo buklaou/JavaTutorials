@@ -1,7 +1,7 @@
 package Section02.OOP.Section04.InheritancePt2;
 
 /**
- * Created by Raffi on 12/27/2015.
+ * @author Raffi
  */
 public class Car extends Vehicle {
 

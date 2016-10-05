@@ -1,7 +1,8 @@
 package Section09.AbstractClasses.Section01.AbstractClasses;
 
 /**
- * Created by Raffi on 1/23/2016.
+ * @author Raffi
+
  */
 
 /*This class extends the abstract Bird class.*/

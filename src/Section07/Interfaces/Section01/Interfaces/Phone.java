@@ -1,7 +1,7 @@
 package Section07.Interfaces.Section01.Interfaces;
 
 /**
- * Created by Raffi on 1/22/2016.
+ * @author Raffi
  */
 
 /*In order for this class to use the Telephone interface, you use implements.*/

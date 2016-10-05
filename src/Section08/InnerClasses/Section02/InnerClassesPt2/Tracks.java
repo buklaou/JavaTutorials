@@ -1,7 +1,7 @@
 package Section08.InnerClasses.Section02.InnerClassesPt2;
 
 /**
- * Created by Raffi on 1/22/2016.
+ * @author Raffi
  */
 public class Tracks {
 

@@ -3,7 +3,7 @@ package Section04.ArrayLists.Section02.ArrayListPt2;
 import java.util.Scanner;
 
 /**
- * Created by Raffi on 1/8/2016.
+ * @author Raffi
  */
 public class ArrayListPt2Main {
 

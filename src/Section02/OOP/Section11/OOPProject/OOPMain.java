@@ -1,7 +1,7 @@
 package Section02.OOP.Section11.OOPProject;
 
 /**
- * Created by Raffi on 12/31/2015.
+ * @author Raffi
  */
 public class OOPMain {
 

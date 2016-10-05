@@ -3,7 +3,7 @@ package Section08.InnerClasses.Section02.InnerClassesPt2;
 import java.util.*;
 
 /**
- * Created by Raffi on 1/22/2016.
+ * @author Raffi
  */
 
 /*LinkedListPt2 code implemented with inner class functionality. (Albums class)*/
