@@ -117,6 +117,10 @@ public class ArrayListMain {
         //storing the array list contents into an array
         String[] myArray = new String[groceryList.getGroceryList().size()];
         myArray = groceryList.getGroceryList().toArray(myArray);
+
+        for(int i = 0; i < myArray.length; i++) {
+            System.out.println(myArray[i]);
+        }
     }
 }
 
