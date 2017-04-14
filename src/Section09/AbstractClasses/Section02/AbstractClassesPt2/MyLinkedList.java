@@ -5,6 +5,7 @@ package Section09.AbstractClasses.Section02.AbstractClassesPt2;
  */
 public class MyLinkedList implements NodeList {
 
+
     private ListItem root = null;
 
     public MyLinkedList(ListItem root) {

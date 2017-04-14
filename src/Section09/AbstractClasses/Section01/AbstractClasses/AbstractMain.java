@@ -14,7 +14,7 @@ package Section09.AbstractClasses.Section01.AbstractClasses;
 *
 * Interfaces:
 * 1. Can have variables but they are all public static final variables (constant values that should never change
-* with a static scope). Must be static because non static variables require an instance and you can't instanstiate an
+* with a static scope). Must be static because non static variables require an instance and you can't instantiate an
 * interface.
 * 2. All methods are automatically public
 * 3. All methods are abstract. All the code must be written in the class that implements the interface.*/

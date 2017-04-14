@@ -29,7 +29,7 @@ public class LinkedMainPt2 {
         albums.get(0).addToPlaylist("Ezra", playList);
         albums.get(0).addToPlaylist("Insane", playList);
         albums.get(0).addToPlaylist(2, playList);
-
+        albums.get(1).addToPlaylist(2, playList);
         play(playList);
     }
 

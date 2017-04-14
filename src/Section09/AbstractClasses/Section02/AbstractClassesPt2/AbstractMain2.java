@@ -34,7 +34,7 @@ public class AbstractMain2 {
 
         list.removeItem(new Node("9"));
         list.removeItem(new Node("8"));
-        list.removeItem(new Node("6"));
+        list.removeItem(new Node("7"));
 
         list.traverse(list.getRoot());
         list.removeItem(list.getRoot());
