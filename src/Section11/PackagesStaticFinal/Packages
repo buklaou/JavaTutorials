@@ -1,0 +1,17 @@
+In order to create a package to be used by a different project/class:
+
+1. File (IntelliJ Toolbar)
+2. Project Structure
+3. Artifacts
+4. + sign
+5. Jar
+6. From modules with dependencies (Note jar folder location. Should be in the "out" folder located in project folder.)
+7. Click ok, click ok
+8. Build (IntelliJ Toolbar)
+9. Build artifacts
+10. Build
+11. Project Structure
+12. Libraries
+13. + sign
+14. Select jar folder
+15. Click ok, click ok

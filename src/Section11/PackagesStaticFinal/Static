@@ -1,0 +1,23 @@
+Static variables have associations with the class itself rather than any
+instances of it. There is only one copy of that variable in memory.
+All instances of the class share that static variable.
+
+You can use the class name to call a method rather than an instance.
+
+When you run a java program, there needs to be an entry point (a method
+that is executed when the program runs). Until the program runs,
+there is no instances to call methods so Java needs to use a static method
+that can be called from the class name rather than a class instance.
+
+Non-static methods cannot be referenced from a static context or method.
+Normal class fields require an instance of the class that don't actually exist
+until an instance has been created.
+
+Values that are constant are declared using static final because it doesn't make sense
+to store a copy of that value when an instance is created. It makes more sense to use static
+so that it is on a class level basis. Final is used so that the value will not change. You can
+also make certain methods final if it is possible that they will be overridden without permission.
+
+Static initialization blocks
+This block is only executed once when the class is first loaded into the project.
+These blocks are called before the constructor and any non-static methods.
