@@ -5,6 +5,7 @@ Alt + Enter: Show list of available intention actions.
 Alt + F1: Switch between views (Project, Structure, etc.)
 Ctrl + O: Override this method
 Ctrl + I: Implement methods from interface
+Ctrl + Y: Delete Line
 Ctrl + K: Commit to github
 Ctrl + D: Duplicate code selection
 Ctrl + Alt + S: Settings

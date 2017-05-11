@@ -7,10 +7,10 @@ public class InterfaceMain {
 
     public static void main(String[] args) {
 
-        /*Using the implementation of ITelephone as a data type, you can create instances
+        /*Using the implementation of Telephone as a data type, you can create instances
         * of it using the same variable name.*/
 
-        ITelephone raffisPhone;
+        Telephone raffisPhone;
         raffisPhone = new Phone(123456);
         raffisPhone.powerOn();
         raffisPhone.callPhone(123456);

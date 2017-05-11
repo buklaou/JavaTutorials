@@ -1,0 +1,20 @@
+abstract Classes	                                                                        Interfaces
+1	 abstract class can extend only one class or one abstract class at a time	            interface can extend any number of interfaces at a time
+2	 abstract  class  can extend from a class or from an abstract class	                    interface can extend only from an interface
+3	 abstract  class  can  have  both  abstract and concrete methods	                    interface can  have only abstract methods
+4	 A class can extend only one abstract class	                                            A class can implement any number of interfaces
+5	 In abstract class keyword ‘abstract’ is mandatory to declare a method as an abstract	In an interface keyword ‘abstract’ is optional to declare a method as an abstract
+6	 abstract  class can have  protected , public and public abstract methods	            Interface can have only public abstract methods i.e. by default
+7	 abstract class can have  static, final  or static final                                Interface  can  have only static final (constant) variable i.e. by default
+                                        variable with any access specifier
+
+
+(S.O.)
+The key technical differences between an abstract class and an interface are:
+
+Abstract classes can have constants, members, method stubs (methods without a body) and defined methods, whereas interfaces can only have constants and methods stubs.
+Methods and members of an abstract class can be defined with any visibility, whereas all methods of an interface must be defined as public (they are defined public by default).
+When inheriting an abstract class, a concrete child class must define the abstract methods, whereas an abstract class can extend another abstract class and abstract methods from the parent class don't have to be defined.
+Similarly, an interface extending another interface is not responsible for implementing methods from the parent interface. This is because interfaces cannot define any implementation.
+A child class can only extend a single class (abstract or concrete), whereas an interface can extend or a class can implement multiple other interfaces.
+A child class can define abstract methods with the same or less restrictive visibility, whereas a class implementing an interface must define the methods with the exact same visibility (public).

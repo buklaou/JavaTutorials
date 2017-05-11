@@ -5,7 +5,7 @@ package Section07.Interfaces.Section01.Interfaces;
  */
 
 /*In order for this class to use the Telephone interface, you use implements.*/
-public class Phone implements ITelephone {
+public class Phone implements Telephone {
 
     private int myNumber;
     private boolean isRinging;

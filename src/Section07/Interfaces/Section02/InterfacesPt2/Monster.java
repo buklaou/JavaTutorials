@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * @author Raffi
  */
-public class Monster implements ISaveable {
+public class Monster implements Saveable {
 
     private String name;
     private int hitPoints;

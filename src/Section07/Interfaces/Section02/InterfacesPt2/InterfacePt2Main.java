@@ -26,8 +26,8 @@ public class InterfacePt2Main {
         saveObject(dragon);
     }
 
-    /*Using the ISaveable interface, we can use any method that is under a class that implements it. */
-    public static void saveObject(ISaveable objectToSave) {
+    /*Using the Saveable interface, we can use any method that is under a class that implements it. */
+    public static void saveObject(Saveable objectToSave) {
         /*objectToSave.write().size() goes through each object in the write() method in the Player class
         * and returns the size of it. (4)*/
         for (int i = 0; i < objectToSave.write().size(); i++) {
@@ -36,7 +36,7 @@ public class InterfacePt2Main {
         }
     }
 
-    public static void loadObject(ISaveable objectToLoad) {
+    public static void loadObject(Saveable objectToLoad) {
         ArrayList<String> values = readValues();
         objectToLoad.read(values);
     }

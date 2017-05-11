@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * @author Raffi
  */
-public class Player implements ISaveable {
+public class Player implements Saveable {
 
     /*Fields*/
     private String name;

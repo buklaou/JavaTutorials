@@ -1,6 +1,6 @@
 package Section11.PackagesStaticFinal.GameTest;
 
-import Section07.Interfaces.Section02.InterfacesPt2.ISaveable;
+import Section07.Interfaces.Section02.InterfacesPt2.Saveable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * @author Raffi
  */
-public class Player implements ISaveable {
+public class Player implements Saveable {
 
     /*Fields*/
     private String name;

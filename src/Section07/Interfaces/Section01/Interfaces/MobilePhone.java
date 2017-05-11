@@ -3,7 +3,7 @@ package Section07.Interfaces.Section01.Interfaces;
 /**
  * @author Raffi
  */
-public class MobilePhone implements ITelephone {
+public class MobilePhone implements Telephone {
 
     private int myNumber;
     private boolean isRinging;

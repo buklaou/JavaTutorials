@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * @author Raffi
  */
-public interface ISaveable {
+public interface Saveable {
 
     List<String> write();
     void read(List<String> savedValues);
